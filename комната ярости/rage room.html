@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Комната ярости — Выпусти злость!</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Навигация -->
+  <header>
+    <div class="logo">Комната Ярости</div>
+    <nav>
+      <ul>
+        <li><a href="#about">О комнате</a></li>
+        <li><a href="#activities">Что можно делать</a></li>
+        <li><a href="#prices">Тарифы</a></li>
+        <li><a href="#contacts">Контакты</a></li>
+      </ul>
+    </nav>
+    <a href="#form" class="btn">Записаться</a>
+  </header>
+
+  <!-- Главный экран -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Выпусти злость без последствий!</h1>
+      <p>Разрушай предметы, избавляйся от стресса и получай удовольствие!</p>
+      <a href="#form" class="btn">Записаться</a>
+    </div>
+  </section>
+
+  <!-- О комнате -->
+  <section id="about" class="section">
+    <h2>О нашей комнате ярости</h2>
+    <p>Это безопасное пространство, где можно разбить, разрушить и освободить эмоции. Без вреда, без осуждения — просто кайф.</p>
+  </section>
+
+  <!-- Что можно делать -->
+  <section id="activities" class="section">
+    <h2>Что тебя ждёт</h2>
+    <div class="cards">
+      <div class="card">⚒️ Разбивай предметы</div>
+      <div class="card">💥 Крушение техники</div>
+      <div class="card">🪓 Метание топора</div>
+      <div class="card">🔥 Энергичный стресс-релиз</div>
+    </div>
+  </section>
+
+  <!-- Тарифы -->
+  <section id="prices" class="section">
+    <h2>Наши тарифы</h2>
+    <div class="prices">
+      <div class="price-card">
+        <h3>Бей посуду, я плачу!</h3>
+        <span class="price">3 900 ₽</span>
+        <p>1–2 участника<br>25 предметов посуды<br>2 кувалды<br><br>Продолжительность: 30 мин</p>
+        <button class="price-btn">Записаться</button>
+      </div>
+
+      <div class="price-card">
+        <h3>Лайтовый отдых</h3>
+        <span class="price">5 900 ₽</span>
+        <p>1–3 участника<br>4 предмета техники<br>18 предметов посуды<br><br>Продолжительность: 30 мин</p>
+        <button class="price-btn">Записаться</button>
+      </div>
+
+      <div class="price-card">
+        <h3>Стресс в большом городе</h3>
+        <span class="price">13 500 ₽</span>
+        <p>1–5 участников<br>10 предметов техники<br>25 предметов посуды<br><br>Продолжительность: 60 мин</p>
+        <button class="price-btn">Записаться</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Контакты -->
+  <section id="contacts" class="section">
+    <h2>Контакты</h2>
+    <div class="contacts-container">
+      <div class="contact-info">
+        <p>📍 Адрес: г. Москва, ул. Примерная, д. 5</p>
+        <p>📞 Телефон: +7 (999) 123-45-67</p>
+        <p>🕓 Время работы: 10:00 — 22:00</p>
+      </div>
+      <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!..." 
+          width="100%" height="250" style="border:0;" allowfullscreen loading="lazy"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- Форма -->
+  <section id="form" class="section">
+    <h2>Оставь заявку</h2>
+    <form id="contactForm">
+      <input type="text" name="name" placeholder="Ваше имя" required>
+      <input type="tel" name="phone" placeholder="Телефон" required>
+      <textarea name="message" placeholder="Комментарий"></textarea>
+      <button type="submit">Отправить</button>
+    </form>
+    <p id="formMessage"></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Комната Ярости. Все права защищены.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
